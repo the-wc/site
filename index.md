@@ -4,7 +4,7 @@ title: "Will Campbell"
 ---
 <div class="min-h-screen bg-amber-50">
   <div class="py-10 px-4 max-w-lg mx-auto flex flex-col items-start space-y-5">
-    <img class="size-16 rounded-md shadow-md" src="/assets/images/sketch.png" alt="me.jpg">
+    <img class="h-[64px] w-[64px] max-h-[64px] max-w-[64px] min-h-[64px] min-w-[64px] rounded-md shadow-md" src="/assets/images/sketch.png" alt="me.jpg">
     <div class="flex items-center gap-x-2">
       <p class="text-lg font-semibold text-amber-900">
         Will Campbell
