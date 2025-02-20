@@ -1,0 +1,34 @@
+---
+layout: default
+title: "Will Campbell"
+---
+<div class="min-h-screen ">
+  <div class="py-10 px-4 max-w-lg mx-auto flex flex-col items-start">
+    <div class="flex items-center gap-x-2">
+      <p class="text-lg font-semibold">
+        Will Campbell
+      </p>
+      <div class="grow"></div>
+    </div>
+
+    <div class="my-10 flex flex-col space-y-5 text-sm">
+      <p>Hi 👋</p>
+      <p>
+        Right now, I'm building a startup. I'm working on rewiring legacy sales.
+      </p>
+      <p>
+        I've done political and community organizing, software engineering, and 
+        product management.
+      </p>
+    </div>
+
+    <div class="text-gray-500 text-xs flex gap-x-5 items-center">
+    <a class="hover:underline" href="https://www.linkedin.com/in/will-campbell-138583188/" target="_blank">
+      LinkedIn
+    </a>
+    <a class="hover:underline" href="https://github.com/the-wc" target="_blank">
+      Github
+    </a>
+    </div>
+  </div>
+</div>
