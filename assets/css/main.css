@@ -11,10 +11,10 @@
   --ink: #292c2e;
   --muted: #666967;
   --accent: #385563;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: var(--ink);
   background: var(--paper);
-  background-image: url('../images/paper-grain.svg');
+  background-image: url("../images/paper-grain.svg");
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
 }
