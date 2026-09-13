@@ -4,3 +4,93 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --paper: #fdfcf9;
+  --ink: #292c2e;
+  --muted: #666967;
+  --accent: #385563;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  background-image: url('../images/paper-grain.svg');
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+body { margin: 0; min-width: 280px; }
+
+.profile {
+  width: min(100% - 48px, 340px);
+  margin-inline: auto;
+  padding-block: clamp(56px, 10vh, 104px) 64px;
+  text-align: left;
+}
+
+.portrait {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 0 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: #a4adae;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover { color: var(--accent); text-decoration-color: currentColor; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+
+.identity-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  text-decoration: none;
+}
+
+.social-links svg { display: block; flex-shrink: 0; }
+
+.current-role { margin: 16px 0 0; font-size: 14px; line-height: 1.75; }
+.background {
+  margin-top: 64px;
+}
+h2 { margin: 0 0 28px; color: var(--ink); font-size: 14px; font-weight: 600; line-height: 1.5; }
+.experience-list { display: grid; gap: 24px; padding: 0; margin: 0; list-style: none; }
+h3 { margin: 0 0 5px; font-size: 13px; font-weight: 600; line-height: 1.6; }
+.experience-list p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.75; text-wrap: pretty; }
+
+@media (max-width: 480px) {
+  .profile { width: calc(100% - 48px); max-width: 340px; padding-top: 48px; }
+  .background { margin-top: 56px; }
+}
